@@ -10,5 +10,8 @@ def testFactorial2():
 def testFactorial3():
     assert factorial.factorial(6) == 3
 
+def testFactorial4():
+    assert factorial.factorial(24) == 4
+
 def testFactorialNone():
     assert factorial.factorial(18) == "NONE"
