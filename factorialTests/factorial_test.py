@@ -5,7 +5,7 @@ def testFactorial1():
     assert factorial.factorial(3628800) == 10
 
 def testFactorial2():
-    assert factorial.factorial(479001600) == 12
+    assert factorial.factorial(40320) == 8
 
 def testFactorial3():
     assert factorial.factorial(6) == 3
