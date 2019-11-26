@@ -18,3 +18,6 @@ def testFactorialNone():
 
 def testFactorialLarge():
     assert factorial.factorial(479001600) == 12
+
+def testFactorial5():
+    assert factorial.factorial(120) == 5
