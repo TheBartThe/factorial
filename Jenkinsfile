@@ -4,8 +4,8 @@ pipeline{
 	stages{
 		stage("-----create init-----") {
 			steps{
-				sh "touch __init__.py factorial"
-				sh "touch __init__.py factorialTests"
+				sh "touch factorial/__init__.py"
+				sh "touch factorialTests/__init__.py"
 			}
 		}
 		
