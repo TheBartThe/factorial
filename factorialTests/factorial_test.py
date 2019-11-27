@@ -2,22 +2,22 @@ import pytest
 from factorial import factorial
 
 def testFactorial1():
-    assert factorial.factorial(3628800) == 10
+    assert factorial.fact(3628800) == 10
 
 def testFactorial2():
-    assert factorial.factorial(40320) == 8
+    assert factorial.fact(40320) == 8
 
 def testFactorial3():
-    assert factorial.factorial(6) == 3
+    assert factorial.fact(6) == 3
 
 def testFactorial4():
-    assert factorial.factorial(24) == 4
+    assert factorial.fact(24) == 4
 
 def testFactorialNone():
-    assert factorial.factorial(18) == "NONE"
+    assert factorial.fact(18) == "NONE"
 
 def testFactorialLarge():
-    assert factorial.factorial(479001600) == 12
+    assert factorial.fact(479001600) == 12
 
 def testFactorial5():
-    assert factorial.factorial(720) == 6
+    assert factorial.fact(720) == 6

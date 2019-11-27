@@ -1,4 +1,4 @@
-def factorial(factorial):
+def fact(factorial):
 ##    while(True):
 ##        try:
 ##            factorial = int(input("Enter your factorial: "))
